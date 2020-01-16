@@ -1,0 +1,136 @@
+[Root]
+Most Recent Package=online exam
+
+
+[Package|online exam|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=C:\WINNT\Profiles\iiimca18\Desktop\exam\ex_setup
+
+[Package|online exam|Configure DAO ISAMs]
+Applicable=Yes
+
+[Package|online exam|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|online exam|Files Found]
+
+[Package|online exam|Files Released]
+msado15.dll=
+
+[Package|online exam|Missing Dependency Information]
+\\BHARGAVYI-PDC\iiimca18\New Folder\exam\ttt.ocx=
+C:\Program Files\Common Files\System\Ado\MSADO20.TLB=
+C:\Program Files\Common Files\System\Ado\MSADOMD.DLL=
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\MSDATOBJ.DLL=
+C:\Program Files\Microsoft Visual Studio\Common\Tools\APE\APEDBSET.DLL=
+
+[Package|online exam|Out-of-Date Dependency Information]
+
+[Package|online exam|Files Added]
+
+[Package|online exam|Files Removed]
+
+[Package|online exam|Files In Project]
+C:\WINNT\Profiles\iiimca18\Desktop\EXAM.exe=Yes
+C:\WINNT\system32\MSVBVM60.DLL=Yes
+C:\WINNT\system32\OLEAUT32.DLL=Yes
+C:\WINNT\system32\OLEPRO32.DLL=Yes
+C:\WINNT\system32\ASYCFILT.DLL=Yes
+C:\WINNT\system32\STDOLE2.TLB=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\Common\Tools\APE\APEDBSET.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\MSDATOBJ.DLL=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO2535.TLB=Yes
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=Yes
+C:\WINNT\system32\MSJET35.DLL=Yes
+C:\WINNT\system32\MSJTER35.DLL=Yes
+C:\WINNT\system32\MSJINT35.DLL=Yes
+C:\WINNT\system32\VBAJET32.DLL=Yes
+C:\WINNT\system32\EXPSRV.DLL=Yes
+C:\WINNT\system32\MSRD2X35.DLL=Yes
+C:\WINNT\system32\MSREPL35.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=Yes
+C:\WINNT\system32\VB5DB.DLL=Yes
+C:\Program Files\Common Files\System\Ado\MSADOMD.DLL=Yes
+C:\Program Files\Common Files\System\Ado\MSADO20.TLB=Yes
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=Yes
+C:\WINNT\system32\MSDBRPTR.DLL=Yes
+C:\WINNT\system32\MSSTDFMT.DLL=Yes
+C:\WINNT\system32\MSBIND.DLL=Yes
+\\BHARGAVYI-PDC\iiimca18\New Folder\exam\ttt.ocx=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|online exam|Configure Registry Files]
+Applicable=No
+
+[Package|online exam|Configure Remote Servers]
+Applicable=No
+
+[Package|online exam|Install Locations]
+C:\WINNT\Profiles\iiimca18\Desktop\EXAM.exe=$(AppPath)
+C:\WINNT\system32\MSVBVM60.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEAUT32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\OLEPRO32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\ASYCFILT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\STDOLE2.TLB=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\Common\Tools\APE\APEDBSET.DLL=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\MSDATOBJ.DLL=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO2535.TLB=$(MSDAOPath)
+C:\Program Files\Common Files\Microsoft Shared\DAO\DAO350.DLL=$(MSDAOPath)
+C:\WINNT\system32\MSJET35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSJTER35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSJINT35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VBAJET32.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\EXPSRV.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSRD2X35.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\MSREPL35.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\MSVCRT40.DLL=$(WinSysPathSysFile)
+C:\WINNT\system32\VB5DB.DLL=$(WinSysPath)
+C:\Program Files\Common Files\System\Ado\MSADOMD.DLL=$(WinSysPath)
+C:\Program Files\Common Files\System\Ado\MSADO20.TLB=$(WinSysPath)
+C:\Program Files\Common Files\Designer\MSDERUN.DLL=$(CommonFiles)\designer
+C:\WINNT\system32\MSDBRPTR.DLL=$(WinSysPath)
+C:\WINNT\system32\MSSTDFMT.DLL=$(WinSysPath)
+C:\WINNT\system32\MSBIND.DLL=$(WinSysPath)
+\\BHARGAVYI-PDC\iiimca18\New Folder\exam\ttt.ocx=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|online exam|Configure Shared Files]
+Applicable=Yes
+C:\WINNT\Profiles\iiimca18\Desktop\EXAM.exe=Yes
+
+[Package|online exam|Distribution]
+Type=single
+Size=1.44 MB
+Title=On Line Examination
+
+[Package|online exam|IconGroups]
+Group0=On Line Examination
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|online exam|On Line Examination]
+Icon1=EXAM.exe
+Title1=On Line Examination
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|online exam|Package]
+PackageFolder=C:\WINNT\Profiles\iiimca18\Desktop\exam\ex_setup
+ProjectFolder=C:\WINNT\Profiles\iiimca18\Desktop\exam
+ServerSideCab=
+File1=C:\WINNT\Profiles\iiimca18\Desktop\exam\ex_setup\setup.exe
+File2=C:\WINNT\Profiles\iiimca18\Desktop\exam\ex_setup\Setup.Lst
+File3=C:\WINNT\Profiles\iiimca18\Desktop\exam\ex_setup\EXAM.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
